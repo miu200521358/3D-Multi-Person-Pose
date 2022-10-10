@@ -1,5 +1,5 @@
-torchsul 
-tqdm
-scipy 
-cython
-munkres
+torchsul==0.1.28
+tqdm==4.64.1
+scipy==1.9.1
+cython==0.29.32
+munkres==1.1.4

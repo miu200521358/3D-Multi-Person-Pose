@@ -1,0 +1,17 @@
+conda create -n multipose pip python=3.9
+conda activate multipose
+pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
+pip install -r requirements.txt
+
+学習モデル
+https://www.dropbox.com/s/n1twh0v5cyzd0z9/3DMPP.zip?dl=0
+
+テストデータセット
+https://vcai.mpi-inf.mpg.de/projects/SingleShotMultiPerson/content/mupots-3d-eval.zip
+
+
+
+cd lib/fastgaus
+python setup.py build_ext --inplace
+cd ../..
+

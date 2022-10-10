@@ -42,7 +42,7 @@ for ts in range(20):
     pjvis = []
     sequencewise_frames.append(num_frames)
     for i in range(num_frames):
-        valid_annotations = 0;
+        valid_annotations = 0
         for k in range(num_person):
             # print(annots[k][i])
             if annots[k][i]['is_valid']==1:
