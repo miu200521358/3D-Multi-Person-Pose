@@ -18,7 +18,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
 lib64/
 parts/
 sdist/
@@ -171,3 +170,4 @@ mupots-3d-eval
 mupots
 MultiPersonTestSet.zip
 MultiPersonTestSet/
+lib/fastgaus/render_core_cython.cpp
